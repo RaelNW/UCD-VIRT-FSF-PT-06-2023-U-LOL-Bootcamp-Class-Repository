@@ -1,92 +1,32 @@
-# UCD-VIRT-FSF-PT-06-2023-U-LOLC
+# UCD-VIRT-FSF-PT-06-2023-U-LOL Bootcamp Class Repository
 
+Welcome to your UCD Full Stack Web Development class repository (Summer 2023).
 
+Class Instructor: John Young (jyoung@instructors.2u.com)
 
-## Getting started
+## How to use
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+As you will learn, web developers and coders in general work together as a team through a **version control system**. The most popular one is called `git`. Our class will use a `git` **repository** ("repo") for short to distribute class materials.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+This is a one-way repository, i.e., you only pull content from it. You will never need to push content. This is your reference material, not where you turn in your homework.
 
-## Add your files
+Before each class, make sure you perform a `git pull` to get the latest class material.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## What is a `README.md`?
 
-```
-cd existing_repo
-git remote add origin https://git.bootcampcontent.com/University-of-California---Davis/UCD-VIRT-FSF-PT-06-2023-U-LOLC.git
-git branch -M main
-git push -uf origin main
-```
+This document is an example of what each code project should have: an introduction that summarizes what is in the project, why it may be useful to a developer, and how to install and use it. `README.md` documents are written in a light weight markup language called Markdown. It give us a set of limited styles defined by a simple syntax to make our documents easier to read.
 
-## Integrate with your tools
+## Contents
 
-- [ ] [Set up project integrations](https://git.bootcampcontent.com/University-of-California---Davis/UCD-VIRT-FSF-PT-06-2023-U-LOLC/-/settings/integrations)
+The repository has one directory for each week of class. We will be spending a lot of time in these folders. Each week is mostly structured as follows:
 
-## Collaborate with your team
+- `README.md`: Each week has a `README` describing the week's content. A great pre-read for the week, this file outlines learning objectives and ways to assess your understanding.
+- `day_1_agenda.md, day_2_agenda.md, day_3_agenda.md`: Each day I will keep track of what we did in class. This will help you navigate the content in the class videos. I will also give suggestions on how to study before the next class
+- `pre-read.md`: I will prepare a pre-read list for each day of the week. This is not required but reading a few web pages before class will help soften the blow one feels when learning a new topic
+- `01-Activities`: These are in-class activities. This is where you apply what is discussed in class lectures. Generally, we go through all of the activities but some are left as supplemental. Activities incorporate concepts required to complete that week's homework. Some activities are just demonstration, others are `Unsolved` exercises that you complete during class. After attempting an activity in class, the instructor will provide a `Solved` version for your review. Activities are hard. It is in your interest to review them again after class. **HINT:** Activities usually provide code that is useful to complete homeworks.
+- `02-Challenge`: This is the homework for the week. It is typically assigned the first class of the week and due the same day the follwing week. For example, if a week starts on Tuesday, the assignment is due the following Tuesday. Each homework will have a `README.md` describing the requirements for completion. There is a separate grading rubric that we will sometimes share with you if we feel it helps communicate the requirements. Sometimes a homework assignment has starter code, sometimes it doesn't. If it has starter code it will be in a `Develop` folder. When you start a homework project, please take the starter code out of the provided `Develop` folder and put it in the root of your homework's `git` project.
+- `03-Algorithims`: Starting in week 3, we will provide you with code puzzles. These are not directly addressed in class, but they are a useful practice of the Javascript language and problem solving.
+- `04-Slides`: Any slides shown during class will be offered here
+- `05-Important`: Some weeks introduce a new skill that requires some extra material (e.g., installing `mysql` or deploying to `heroku`). The `Important` folder will supply a how-to guide you can refer back to.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+I have also created an `_extras` folder for supplemental content
